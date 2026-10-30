@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "command": "bash",
+    "tasks": [
+        {
+            "label": "Make project",
+            "type": "shell",
+            "command": "make clean 2> /dev/null; clear; make",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
